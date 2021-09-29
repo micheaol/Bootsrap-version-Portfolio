@@ -4,6 +4,50 @@
     justify-content:flex-end;
     margin-right: 5%;
 }
+
 .name-log{
     margin-left: 5%;
+}
+.changed-nav-bg-color{
+    background-color: #3E3C3C;
+}
+
+/* ======== Styling healines======================= */
+.healines-section{
+    background-image: url("../images/Illustration-header.png");
+    background-size: 50% 100%, cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: right 2% bottom 5%;
+    background-color: #1C1A19;
+    
+}
+.headlines{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10%;
+    padding-left: 3%;
+}
+
+.headlines h1 {
+    color: #F55800;
+}
+
+.headlines h4 {
+    color: #FFFFFF;
+}
+.headlines p {
+    color: #F4F5F7;
+    width: 80%;
+    height: 20%;
+}
+.social-ul{
+    list-style-type: none;
+    margin-right: 7.5%;
+    margin-top: 7.5%;
+}
+.social-ul li a {
+    color: #CFCFCF;
 }
