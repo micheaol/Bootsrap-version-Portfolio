@@ -1,10 +1,27 @@
 * {
     color: cornsilk;
 }
-main {
-    height: 100%;
+
+.headlines {
     background-image: url("../images/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 60% 100%, cover;
     background-position: right 1% ;
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+.projects-header{
+    background-image: url(../images/last-line.png);
+    background-size: 75% 2%;
+    background-repeat: no-repeat;  
+    background-position: left 80% top 50%;
+}
+
+.badge{
+    width: 22.5%;
+    border-radius: 0;
+    border: 1px solid black;
 }
