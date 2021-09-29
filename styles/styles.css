@@ -1,0 +1,9 @@
+
+.item-flex{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 5%;
+}
+.name-log{
+    margin-left: 5%;
+}
