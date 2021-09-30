@@ -54,3 +54,81 @@
 .ul-color li a i {
     color: black;
 }
+
+
+@media screen and (max-width: 400px) {
+    .headlines {
+        background-image: url("../images/illustration-header-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 60% 100%, cover;
+        background-position: right 1% bottom 0;
+    }
+
+    .headlines__ul{
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        width: 45%;
+    }
+
+    .projects-header{
+        background-image: none;
+        
+    }
+
+    .projects-header h1{
+        border-bottom: 1px solid #212121;
+        padding: 0 10px 15px;
+        text-align: center;
+    }
+
+    .bootstrap-badge{
+        width: 60px;
+    }
+
+    .see-project-btn{
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .projects-hero{
+        padding: 1.75rem ;
+    }
+
+    .card{
+        padding-top: 1rem;
+    }
+
+    .about-me-img{
+        height: auto!important;
+        background-image: url('../images/illustration-about-me-mobile.svg');
+        background-size: 25% 30%, cover;
+        background-position: right -5% top 15%;
+    }
+
+    .about-me .row {
+        padding-top: 2rem;
+    }
+    
+    .about-me-img button{
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .tech-skills{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+
+    .footer{
+        width: 50%;
+    }
+
+    form button{
+        width: 40%;
+        margin: 1rem 30% 0;
+    }
+
+    .card__bootstrap-badge{
+        width: 80px!important;
+    }
+}
