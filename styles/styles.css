@@ -50,3 +50,7 @@
 .square-shaped::before {
     content: url("../images/Rectangle-two.svg");
 }
+
+.ul-color li a i {
+    color: black;
+}
